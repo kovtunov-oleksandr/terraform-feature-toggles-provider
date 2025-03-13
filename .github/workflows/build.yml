@@ -23,6 +23,9 @@ jobs:
 
     - name: Setup Taskfile
       uses: Illbjorn/setup-task@0.1.0
+
+    - name: Tidy
+      run: task tidy
       
     - name: Build
       run: task build
